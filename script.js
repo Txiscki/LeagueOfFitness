@@ -20,7 +20,22 @@ document.getElementById('calculate-button').addEventListener('click', function()
         netDeaths = 0;
     }
 
+    // Lista de castigos aleatorios
+    const punishments = [
+        '10 flexiones',
+        '15 segundos de plancha',
+        '20 abdominales',
+        '10 sentadillas',
+        '30 segundos de sentadilla contra la pared',
+        '15 zancadas (alternando piernas)',
+        '10 burpees',
+        '30 segundos de saltos en estrella'
+    ];
+
+    // Seleccionar un castigo aleatorio de la lista
+    const randomPunishment = punishments[Math.floor(Math.random() * punishments.length)];
+
     // Mostramos el resultado
     const resultDiv = document.getElementById('result');
-    resultDiv.innerHTML = `Debes cumplir con ${netDeaths} castigo(s).`;
+    resultDiv.innerHTML = `Debes cumplir con ${netDeaths} castigo(s). <br> Castigo sugerido: ${randomPunishment}`;
 });
