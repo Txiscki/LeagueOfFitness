@@ -40,7 +40,14 @@ document.getElementById('calculate-button').addEventListener('click', function()
         { name: '20 jumping jacks', description: 'Salta abriendo y cerrando piernas y brazos en cada salto.' },
         { name: '10 fondos de tríceps en el suelo', description: 'Sentado en el suelo, apoya las manos y levanta el cuerpo, luego baja y sube usando los tríceps.' },
         { name: '10 patadas de glúteo (por pierna)', description: 'A gatas, extiende una pierna hacia atrás y hacia arriba.' },
-        { name: '20 segundos de tijeras', description: 'Acuéstate y alterna levantando y bajando las piernas en forma de tijera.' }
+        { name: '20 segundos de tijeras', description: 'Acuéstate y alterna levantando y bajando las piernas en forma de tijera.' },
+        { name: '10 fondos de tríceps en silla', description: 'Apoya las manos en una silla y baja el cuerpo hasta que los brazos formen un ángulo de 90 grados.' },
+        { name: '15 flexiones con rotación de tronco', description: 'Haz una flexión y luego levanta un brazo hacia el techo, girando el torso.' },
+        { name: '20 pasos laterales en sentadilla', description: 'Haz una sentadilla y da pasos laterales manteniendo la posición baja.' },
+        { name: '15 sentadillas búlgaras (por pierna)', description: 'Apoya un pie en una silla detrás de ti y baja en sentadilla con la pierna delantera.' },
+        { name: '15 elevaciones de pierna lateral', description: 'Acuéstate de lado y eleva la pierna superior, trabajando abductores.' },
+        { name: '20 segundos de bear crawl', description: 'Desde posición de cuadrupedia, levanta las rodillas del suelo y desplázate hacia adelante y hacia atrás.' },
+        { name: '10 push-up con aplauso', description: 'Haz una flexión explosiva en la que puedas dar un aplauso mientras estás en el aire.' }
     ];
 
     // Seleccionar un castigo aleatorio de la lista
